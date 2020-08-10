@@ -30,12 +30,6 @@ body {
     background: none;
     color: #000;
 }
-.topnav .active {
-    background: #67a9ed;
-    padding: 20px;
-    border-radius: 30px;
-    color: #fff;
-}
 
 .topnav a:hover {
     background: #67a9ed;
