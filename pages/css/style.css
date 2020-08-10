@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.topnav {
+    background: transparent;
+    padding: 20px;
+    box-shadow: 5px 5px 20px #000;
+}
+.topnav a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+.topnav .logo {
+    font-family: 'Lemonada', cursive;
+}
+.topnav .logo:hover {
+    background: none;
+    color: #000;
+}
+.topnav .active {
+    background: #67a9ed;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.topnav a:hover {
+    background: #67a9ed;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+}
+.container .column-1 { /* column 1 */
+    width: 50%;
+    float: left;
+    background: #e5e6e8;
+    height: 100vh;
+    padding: 100px;
+}
+.column-1 img { /* profile */
+    width: 150px;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+.column-1 h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Lemonada', cursive;
+}
+.column-1 p {
+    float: right;
+    text-align: justify;
+    width: 470px;
+    line-height: 1.5em;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.column-1 a img {
+    width: 70px;
+    margin: 10px;
+    border: none;
+}
+
+
+.container .column-2 { /* column 2 */
+    width: 50%;
+    float: right;
+    background: #e5e6e8;
+    height: 100vh;
+    padding: 100px;
+}
+
+.skills h1 {
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Lemonada', cursive;
+}
+
+.skills p {
+    margin: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.skills .html {
+    width: 80%;
+    background: orange;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.skills .css {
+    width: 50%;
+    background: #67a9ed;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.skills .js {
+    width: 10%;
+    background: #f1c371;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#footer {
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background:#999;
+ }
+ 
+ #footer p {
+     text-align: center;
+     color: #f5f5f5;
+     padding: 5px;
+     font-family: 'Baloo Tamma 2', cursive;
+ }
+
+ /* IE 6 */
+ * html #footer {
+    position:absolute;
+    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+ }
