@@ -35,7 +35,7 @@ body {
 }
 
 .topnav a:hover {
-    background: #67a9ed;
+    background: rgba(12, 14, 23, 0.43);
     padding: 20px;
     transition: 0.5s;
     border-radius: 30px;
